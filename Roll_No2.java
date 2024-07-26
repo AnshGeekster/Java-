@@ -21,7 +21,7 @@ public class Roll_No2 {
         // Read the number to search for
         System.out.println("Enter the roll no. to search for:");
         int N  = sc.nextInt();
-        
+        sc.close();
         // Perform binary search and get the number of comparisons
         int comparisons = binarySearch(rollNumbers, N);
         
