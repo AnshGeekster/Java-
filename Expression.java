@@ -6,7 +6,7 @@ public class Expression {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String input = scanner.nextLine().trim();
-
+        scanner.close();
         input = input.replaceAll("\\s+", "");
 
         int openParenIndex = input.indexOf('(');
