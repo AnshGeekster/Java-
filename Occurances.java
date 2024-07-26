@@ -6,6 +6,7 @@ public class Occurances {
         int c=0,k=0;
         System.out.println("Enter the String:");
         String s=sc.nextLine();
+        sc.close();
         int l=s.length();
         int[] arr=new int[l];
         s=s.toLowerCase();
