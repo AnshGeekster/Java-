@@ -21,7 +21,7 @@ public class Roll_No {
         // Read the number to search for
         System.out.println("Enter the roll no. to search for:");
         int N = sc.nextInt();
-        
+        sc.close();
         // Perform linear search and get the number of comparisons
         int comparisons = linearSearch(rollNumbers, N);
         
